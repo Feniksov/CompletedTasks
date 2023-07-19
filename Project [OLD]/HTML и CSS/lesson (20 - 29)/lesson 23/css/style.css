@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 100px 100px  30vh;
+  height: 100vh;
+}
+
+.block{
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+/* ----------Универсальное свойство background-------------- */
+
+.block { 
+  background: url(../images/kartinka.jpeg) 50% 50% / auto 300px no-repeat, linear-gradient(#ac0046, #8115c9);
+}
+
+/* ----------Отдельное свойство background-------------- */
+
+.block-1 { 
+  background-image: url(../images/kartinka2.jpeg), linear-gradient(#6700ac, #00ccff);
+  background-repeat: no-repeat;
+  background-size: 250px 250px, cover;
+  background-position: 50% 50%;
+}

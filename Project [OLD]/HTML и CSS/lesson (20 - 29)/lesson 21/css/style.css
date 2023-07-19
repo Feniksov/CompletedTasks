@@ -1,0 +1,31 @@
+.greet__title {
+  font-family: "Proxima Nova BoldIt", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 50px;
+}
+.greet__text {
+  font-family: "Proxima Nova BoldIt", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+.greet__text-1 {
+  font-size: 2rem;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+/* ----------------------------------------- */
+
+@font-face {
+  font-family: "Proxima Nova BoldIt";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Proxima Nova BoldIt"),
+        local("ProximaNova-BoldIt"),
+        url("../fonts/ProximaNova-BoldIt.woff2") format('woff2'),
+        url("../fonts/ProximaNova-BoldIt.woff") format('woff'),
+        url("../fonts/ProximaNova-BoldIt.eot") format('eot');
+  font-display: swap;
+}

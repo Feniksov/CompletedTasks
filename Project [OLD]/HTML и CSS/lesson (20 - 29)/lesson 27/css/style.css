@@ -1,0 +1,16 @@
+.block {
+  font-size: 50px;
+  animation: gradient-animation 2s linear infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    color: red;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}

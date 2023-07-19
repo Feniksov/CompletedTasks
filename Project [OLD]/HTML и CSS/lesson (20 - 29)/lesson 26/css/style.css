@@ -1,0 +1,72 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
+
+.transition {
+  height: 100%;
+}
+
+.button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: #555;
+}
+
+.block {
+  width: 10px;
+  height: 150px;
+}
+
+.red {
+  background-color: rgb(221, 108, 108);
+}
+.blue {
+  background-color: rgb(116, 108, 221);
+}
+.orange {
+  background-color: rgb(221, 163, 108);
+}
+.purple {
+  background-color: rgb(166, 108, 221);
+}
+
+.transition:hover .block {
+  width: 100%;
+}
+
+/* --------------универсальные свойства------------------------------ */
+
+.block {
+  border: 5px solid transparent;
+  transition: border-color 3s 2s;
+}
+
+.block:hover {
+  border-color: black;
+}
+
+/* --------------обычные свойства------------------------------ */
+
+.block {
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent;
+  transition-property: border-color;
+  transition-duration: 3s;
+  transition-delay: 2s;
+}
+
+.block:hover {
+  border-color: black;
+}
