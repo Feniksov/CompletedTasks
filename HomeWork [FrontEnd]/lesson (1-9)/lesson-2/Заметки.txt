@@ -1,0 +1,3 @@
+0. Скачал и установил VScode - https://code.visualstudio.com/download
+1. Настроил VScode.
+2. Установил нужные плагины.
