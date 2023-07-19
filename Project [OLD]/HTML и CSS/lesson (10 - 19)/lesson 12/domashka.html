@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon" />
+    <title>domashka</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Форма для заказа огурцов</legend>
+
+        <label for="#name">Ваше имя:</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="#surname">Ваша фамилия:</label>
+        <input type="text" id="surname" />
+        <br />
+        <label for="#phone">Телефон для связи:</label>
+        <input type="tel" id="phone" />
+        <br />
+        <label for="#email">Ваш email адрес:</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="#date">Дата и время доставки:</label>
+        <input type="datetime-local" id="date" />
+      </fieldset>
+      <fieldset>
+        <legend>Выберете количество огурцов для доставки</legend>
+
+        <label for="#cucumbers1">1 огурец</label>
+        <input type="radio" id="cucumbers1" name="cucumbers" value="1">
+        <br>
+        <label for="#cucumbers2">2 огурца</label>
+        <input type="radio" id="cucumbers2" name="cucumbers" value="2">
+        <br>
+        <label for="#cucumbers3">3 огурца</label>
+        <input type="radio" id="cucumbers3" name="cucumbers" value="3">
+      </fieldset>
+      <input type="reset" value="Очистить форму">
+      <input type="submit" value="Отправить форму">
+    </form>
+  </body>
+</html>

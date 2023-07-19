@@ -1,0 +1,14 @@
+p.text--bold {
+  font-weight: bold;
+}
+
+.parent .child {
+  background-color: #383838;
+  padding: 10px;
+}
+
+a[href="#blog"] {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}

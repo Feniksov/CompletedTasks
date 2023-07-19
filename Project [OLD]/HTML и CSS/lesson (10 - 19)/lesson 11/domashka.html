@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>domashka</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Ваши данные</legend>
+        <label for="#name">Ваше имя:</label>
+        <input type="text" id="name" /><br />
+
+        <label for="#city">Город доставки</label>
+        <select name="city">
+          <option value="">--Выбрать город--</option>
+          <option value="moscow">Москва</option>
+          <option value="saint-petersburg">Санкт-Петербург</option>
+          <option value="krasnodar">Краснодар</option>
+          <option value="ekaterinburg">Екатеринбург</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Данные вашего питомца</legend>
+        <label for="#petname">Кличка питомца:</label>
+        <input type="text" id="petname" />
+      </fieldset>
+      <button type="submit">Отправить форму</button>
+      <button type="reset">Очистить форму</button>
+    </form>
+  </body>
+</html>

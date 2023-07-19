@@ -1,0 +1,6 @@
+1. Скачал VS Code и установил плагины
+1.1 Из урока: CSS Formatter, eCSStractor for VSCode, htmltagwrap, Image preview, indent-rainbow, Live Server, One Dark Bimbo.
+1.2 И пару своих: Prettier - Code formatter, HTML CSS Support, Auto Rename Tag, Auto Close Tag.
+
+2. Настроил VS Code 
+3. Понял план обучения 

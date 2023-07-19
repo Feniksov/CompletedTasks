@@ -1,0 +1,8 @@
+.text-block{
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+  margin-top: 25px;
+  letter-spacing: 5px;
+}
