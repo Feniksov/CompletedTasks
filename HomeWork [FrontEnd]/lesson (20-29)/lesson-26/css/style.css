@@ -1,0 +1,39 @@
+div {
+    color: green;
+}
+
+.block {
+    color: red;
+}
+
+#id-block {
+    color: blueviolet;
+}
+
+[data-example] {
+    color: rgb(182, 139, 59);
+}
+
+[data-example="value2"] {
+    color: rgb(156, 55, 123);
+}
+
+/* ----------------------------------------------- */
+
+.block3, .block4, .block5 {
+    color: rgb(255, 217, 0);
+}
+
+/* ----------------------------------------------- */
+
+div.blue-block {
+    color: blue;
+}
+
+div .orange {
+    color: orange;
+}
+
+.parent>.child {
+    color: rgb(6, 247, 255);
+}
